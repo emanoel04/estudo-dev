@@ -7,7 +7,7 @@
     border: 1px solid black;
     padding: 10px;
     margin-top: 20px;
-    background-color: cornflowerblue;
+    background-color: rgb(235, 235, 235);
 }
 
 .title-registre {
@@ -50,7 +50,7 @@ button {
 }
 
 .button-clear:hover {
-    background-color: yellow;
+    background-color: rgb(25, 9, 250);
     width: 70px;
     height: 30px;
     color: white;
@@ -59,7 +59,7 @@ button {
 }
 
 .button-submit:hover {
-    background-color: yellow;
+    background-color: rgb(31, 72, 255);
     width: 70px;
     height: 30px;
     color: white;
