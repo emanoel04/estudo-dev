@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 2 - HTML</title>
+</head>
+
+<body>
+    <form action="" method="POST" enctype="multipart/form-data">
+        <fieldset>
+            <legend>Cadastro</legend>
+            <label for="fname">Nome</label><br>
+            <input type="text" id="fname" name="fname" required><br><br>
+
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="idade">Idade</label><br>
+            <input type="number" min="12" step="1" max="99" id="idade" name="idade" required><br><br>
+
+            <label for="date">Data de Nascimento</label><br>
+            <input type="date" id="date" name="date" required><br><br>
+
+            <label> Onde você possui conta:<br>
+                <br>
+                <label>
+                    <input type="checkbox" name="instagram">
+                    Instagram
+                </label>
+
+                <label>
+                    <input type="checkbox" name="facebook">
+                    Facebook
+                </label>
+
+                <label>
+                    <input type="checkbox" name="youtube">
+                    YouTube
+                </label>
+            </label>
+            <br>
+            <br>
+
+            <label>Sexo<br>
+                <input type="radio" name="genero" value="masculino"> Masculino</label>
+                <input type="radio" name="genero" value="feminino"> Feminino</label>
+                <br>
+                <br>
+
+            <label >Cor dos Olhos
+                <input type="color" name="cor-dos-olhos"></label><br><br>
+
+            <label>Biografia <br>
+                <textarea name="bio" id="bio" cols="40" rows="10"></textarea>
+            </label><br><br>
+
+                <label >Foto do perfil<br>
+                    <input type="file" name="arquivo" accept="images/*" required> 
+                </label><br><br>
+
+                <label>Telefone<br>
+                    <input type="tel" name="telefone">
+                </label><br><br>
+
+
+                <label>Link do Perfil do Facebook<br>
+                    <input type="url" name="url">
+                </label><br><br>
+
+                <label>Senha<br>
+                    <input type="password" min="6" max="8" name="pass" required></label><br><br>
+
+                <button type="reset" name="reset">Limpar</button>
+                <button type="submit" name="submit" >Enviar Dados</button>
+        </fieldset>
+    </form>
+</body>
+
+</html>
